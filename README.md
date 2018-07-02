@@ -28,12 +28,3 @@
 *  前台配置路由规则
 *  ......
 
-##项目地址
-Github:[https://github.com/cnsecer/ThinkAdmin](https://github.com/cnsecer/ThinkAdmin) 
-
-OSChina: [http://git.oschina.net/cnsecer/ThinkAdmin](http://git.oschina.net/cnsecer/ThinkAdmin)
-
-博客: [http://www.cnsecer.com/8072.html](http://www.cnsecer.com/8072.html)
-
-## 联系我
-QQ群:`88852333`
