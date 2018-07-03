@@ -58,7 +58,7 @@ class IndexController extends BaseController{
 
         $bucket = C('BUCKET');
 
-        $prefix='';
+        $prefix='tp_';
         $marker='';
 
         $list=$bucketMgr->listFiles($bucket,$prefix,$marker);
