@@ -2,12 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4775d9ea-1857-417f-a371-2c823beff520" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/studio.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/ImgController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/VideoController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Audio/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Img/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Index/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Index/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Public/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/View/Video/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class2.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Common/Conf/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Common/Conf/oauth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Common/Conf/wechat.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/Controller/PostController.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/Controller/WeChatController.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/View/Login/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/View/Page/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/View/Post/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Application/Home/View/Post/view.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Common/Conf/config.php" afterPath="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Public/footer.html" afterPath="$PROJECT_DIR$/Application/Home/View/Public/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Public/header.html" afterPath="$PROJECT_DIR$/Application/Home/View/Public/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Application/Home/Controller/PageController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/AudioController.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/.gitignore" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/.scrutinizer.yml" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/.scrutinizer.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/.travis.yml" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/.travis.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/CHANGELOG.md" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/CONTRIBUTING.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/LICENSE" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/README.md" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/autoload.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/autoload.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/composer.json" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/composer.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/docs/rtc/README.md" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/docs/rtc/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/docs/rtc/example.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/docs/rtc/example.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/README.md" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/cdn_get_bandwidth.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/cdn_get_bandwidth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/cdn_get_flux.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/cdn_get_flux.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/cdn_get_log_list.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/cdn_get_log_list.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/cdn_refresh_urls_dirs.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/cdn_refresh_urls_dirs.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/cdn_timestamp_antileech.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/cdn_timestamp_antileech.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/image_url_builder.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/image_url_builder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/persistent_fop_init.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/persistent_fop_init.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/persistent_fop_status.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/persistent_fop_status.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/pfop_mkzip.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/pfop_mkzip.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/pfop_vframe.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/pfop_vframe.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/pfop_video_avthumb.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/pfop_video_avthumb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/pfop_watermark.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/pfop_watermark.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/php-logo.png" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/php-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/prefop.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/prefop.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/qetag.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/qetag.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_batch_change_mime.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_batch_change_mime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_batch_change_type.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_batch_change_type.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_batch_copy.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_batch_copy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_batch_delete.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_batch_delete.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_batch_delete_after_days.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_batch_delete_after_days.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_batch_move.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_batch_move.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_batch_stat.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_batch_stat.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_bucket_domains.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_bucket_domains.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_buckets.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_buckets.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_change_mime.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_change_mime.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_change_status.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_change_status.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_change_type.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_change_type.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_copy.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_copy.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_delete.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_delete.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_delete_after_days.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_delete_after_days.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_download_urls.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_download_urls.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_fetch.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_fetch.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_move.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_move.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_prefetch.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_prefetch.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rs_stat.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rs_stat.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rsf_list_bucket.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rsf_list_bucket.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/rsf_list_files.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/rsf_list_files.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/saveas.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/saveas.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/upload_and_callback.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/upload_and_callback.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/upload_and_pfop.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/upload_and_pfop.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/upload_mgr_init.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/upload_mgr_init.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/upload_multi_demos.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/upload_multi_demos.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/upload_simple_file.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/upload_simple_file.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/upload_tokens.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/upload_tokens.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/examples/upload_verify_callback.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/examples/upload_verify_callback.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/phpunit.xml.dist" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/phpunit.xml.dist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Auth.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Auth.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Cdn/CdnManager.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Cdn/CdnManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Config.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Etag.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Etag.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Http/Client.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Http/Client.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Http/Error.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Http/Error.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Http/Request.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Http/Request.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Http/Response.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Http/Response.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Processing/ImageUrlBuilder.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Processing/ImageUrlBuilder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Processing/Operation.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Processing/Operation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Processing/PersistentFop.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Processing/PersistentFop.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Rtc/AppClient.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Rtc/AppClient.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Storage/BucketManager.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Storage/BucketManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Storage/FormUploader.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Storage/FormUploader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Storage/ResumeUploader.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Storage/ResumeUploader.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Storage/UploadManager.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Storage/UploadManager.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Zone.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Zone.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/functions.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/functions.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/test-env.sh" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/test-env.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/AuthTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/AuthTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/Base64Test.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/Base64Test.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/BucketTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/BucketTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/CdnManagerTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/CdnManagerTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/Crc32Test.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/Crc32Test.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/DownloadTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/DownloadTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/EtagTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/EtagTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/FopTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/FopTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/FormUpTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/FormUpTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/HttpTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/HttpTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/ImageUrlBuilderTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/ImageUrlBuilderTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/PfopTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/PfopTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/ResumeUpTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/ResumeUpTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/Qiniu/Tests/ZoneTest.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/Qiniu/Tests/ZoneTest.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Public/php-sdk-7.2.6/tests/bootstrap.php" afterPath="$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/tests/bootstrap.php" />
     </list>
     <ignored path="studio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,21 +144,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.423077">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="AudioController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AudioController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78519857">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Audio/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4586331">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -51,21 +176,39 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Application/Common/Conf/db.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/Application/Admin/View/Public/sidebar.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/Desktop/Picture.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/header.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/footer.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/ImgController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/VideoController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Img/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/about.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/contact.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Video/index.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Public/menu.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/AudioController.class.php" />
       </list>
     </option>
   </component>
@@ -109,8 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -143,21 +284,256 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Audio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/qiniu" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="E:\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wamp64\www\studio\Public\fonts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\wamp64\www\studio\Application\Home\View\Index" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\studio\Application\Home\View" />
+      <recent name="E:\wamp64\www\studio\Application\Home\Controller" />
+      <recent name="E:\wamp64\www\studio\Application\Home\View\Index" />
+      <recent name="E:\wamp64\www\studio\ThinkPHP\Library\Vendor" />
+      <recent name="E:\wamp64\www\studio\ThinkPHP\Library\Think\Upload\Driver\Qiniu" />
     </key>
   </component>
   <component name="RunManager">
@@ -207,23 +583,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2655068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -242,6 +618,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -271,24 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21402878">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12230216">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -299,31 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18345323">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -355,52 +712,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21402878">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/php-sdk-7.2.6/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/Picture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9892087">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2889733">
-          <caret line="505" column="30" selection-start-line="505" selection-start-column="30" selection-end-line="505" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/php-sdk-7.2.6/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0881295">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/php-sdk-7.2.6/src/Qiniu/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4856114">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -409,22 +723,286 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20216607">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/LinksController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.893.2316/HZ$D.893.2317/QiniuStorage.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.395683">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.365108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload/Driver/Qiniu/QiniuStorage.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4856114">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Cdn/CdnManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1528777">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34892085">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Storage/UploadManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62410074">
+          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5323741">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.51079136">
+          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding>
+            <element signature="e#83#106#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Vendor/Qiniu/src/Qiniu/Storage/BucketManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71582735">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78519857">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.12230216">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cpts_986_cee/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24460432">
+          <caret line="8" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="338" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6420863">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42805755">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12230216">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cpts_986_cee/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108">
+          <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="244" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35791367">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/cpts_986_cee/products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.397482">
+          <caret line="13" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="477" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/VideoController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18345323">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27517986">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3057554">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ImgController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Video/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58093524">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5179856">
+          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51978415">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4586331">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Img/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.544964">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51978415">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Public/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AudioController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Audio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4586331">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>

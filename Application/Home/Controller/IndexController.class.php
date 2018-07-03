@@ -10,4 +10,16 @@ class IndexController extends Controller{
 
         $this->display();
     }
+
+    public function about(){
+        $this->display();
+    }
+
+    public function contact(){
+        $this->display();
+    }
+
+    public function pic(){
+
+    }
 }

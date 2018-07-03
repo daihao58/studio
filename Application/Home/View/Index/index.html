@@ -10,28 +10,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="keywords" content="">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- //Meta-Tags -->
 
-	<!-- Custom-Stylesheet-Links -->
-		<!-- Bootstrap-CSS -->		 <link rel="stylesheet" href="/Public/css/bootstrap.min.css" 	type="text/css" media="all">
-		<!-- Default-CSS -->		 <link rel="stylesheet" href="/Public/css/style.css" 			type="text/css" media="all">
-		<!-- Navigation-Menu-CSS --> <link rel="stylesheet" href="/Public/css/menu_wave.css" 		type="text/css" media="all">
-		<!-- Gallery-Popup-CSS --> 	 <link rel="stylesheet" href="/Public/css/chocolat.css"			type="text/css" media="all">
-	<!-- //Custom-Stylesheet-Links -->
-
-	<!-- Navigation-Menu-JavaScript -->
-	<script src="/Public/js/snap.svg-min.js"></script>
-	<!--[if IE]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-	<!-- Specialities-Hover-Effect-JavaScript --> <script src="/Public/js/modernizr.custom.js"></script>
-
-	<!-- Web-Fonts -->
-		<!--&lt;!&ndash; Body-Font &ndash;&gt;	 <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700"					type='text/css'>-->
-		<!--&lt;!&ndash; Link-Font &ndash;&gt;	 <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900"		type='text/css'>-->
-	<!-- //Web-Fonts -->
+	<include file="Public/header" />
 
 </head>
 <!-- //Head -->
@@ -47,22 +27,16 @@
 
 			<!-- Navigation-Menu -->
 			<nav class="menu">
-				<div class="icon-list">
-					<a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span>HOME</span></a>
-					<a href="about.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><span>ABOUT US</span></a>
-					<a href="products.html"><span class="glyphicon glyphicon-gift" aria-hidden="true"></span><span>PRODUCTS</span></a>
-					<a href="codes.html"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span><span>TYPOGRAPHY</span></a>
-					<a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><span>CONTACT</span></a>
-				</div>
+				<include file="Public/menu" />
 			</nav>
 			<!-- //Navigation-Menu -->
 
 			<!-- Close-Button -->
 			<button class="close-button" id="close-button">Close Menu</button>
 			<!-- //Close-Button -->
-
+			<!--xmlns="http://www.w3.org/2000/svg"-->
 			<div class="morph-shape" id="morph-shape" data-morph-open="M0,100h1000V0c0,0-136.938,0-224,0C583,0,610.924,0,498,0C387,0,395,0,249,0C118,0,0,0,0,0V100z">
-				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1000 100" preserveAspectRatio="none">
+				<svg  width="100%" height="100%" viewBox="0 0 1000 100" preserveAspectRatio="none">
 					<path d="M0,100h1000l0,0c0,0-136.938,0-224,0c-193,0-170.235-1.256-278-35C399,34,395,0,249,0C118,0,0,100,0,100L0,100z"/>
 				</svg>
 			</div>
@@ -567,56 +541,7 @@
 				<!-- //Clients -->
 
 				<!-- Footer -->
-				<div class="footer">
-					<div class="container">
-
-						<h3>联系我们</h3>
-						<h5>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequateu fugiat nulla pariatur.</h5>
-
-						<div class="footer-grids">
-
-							<div class="col-md-3 col-sm-3 footer-grid footer-grid-1 address">
-								<h4>Address</h4>
-								<address>
-									<ul>
-										<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Parma Via Modena</li>
-										<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> 40019</li>
-										<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Sant'Agata Bolognese</li>
-										<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> BO, Italy</li>
-									</ul>
-								</address>
-							</div>
-
-							<div class="col-md-3 col-sm-3 footer-grid footer-grid-2 phone">
-								<h4>Phone</h4>
-								<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +1 (734) 123-4567</p>
-								<p><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +1 (739) 648-7114</p>
-							</div>
-
-							<div class="col-md-3 col-sm-3 footer-grid footer-grid-3 email">
-								<h4>Email</h4>
-								<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:mail@example.com"> info@example.com</a></p>
-								<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:mail@example.com"> info@couture.com</a></p>
-							</div>
-
-							<!-- Newsletter -->
-							<!--<div class="col-md-3 col-sm-3 footer-grid footer-grid-4 newsletter">-->
-								<!--<h4>Newsletter</h4>-->
-								<!--<form action="#" method="post">-->
-									<!--<input type="text" placeholder="Email" name="Email" required="">-->
-									<!--<input type="submit" value="SUBSCRIBE">-->
-								<!--</form>-->
-							<!--</div>-->
-							<!-- //Newsletter -->
-
-							<div class="clearfix"></div>
-
-						</div>
-
-
-
-					</div>
-				</div>
+				<include file="Public/footer" />
 				<!-- //Footer -->
 
 			</div>

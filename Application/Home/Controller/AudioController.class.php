@@ -4,9 +4,9 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class PageController extends Controller{
+class AudioController extends Controller{
+    public function index(){
 
-    public function index($name){
         $this->display();
     }
 }
