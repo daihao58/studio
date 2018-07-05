@@ -9,4 +9,8 @@ class AudioController extends Controller{
 
         $this->display();
     }
+
+    public function single(){
+        $this->display();
+    }
 }
