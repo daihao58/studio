@@ -13,8 +13,12 @@ class IndexController extends BaseController{
     public function index(){
 
         if($_POST){
+            var_dump($_FILES);die;
+            $true_name=$_POST['true_name'];
+
             $filePath=$_FILES['img']['tmp_name'];
-            $prefix='tp_';
+
+            $prefix='video_';
             $name=$prefix.$_FILES['img']['name'];
 
             $type=$_FILES['img']['type'];
@@ -34,9 +38,16 @@ class IndexController extends BaseController{
             if ($err !== null) {
                 var_dump($err);die;
             } else {
-                $data['cname']='http://pba0rjj88.bkt.clouddn.com/'.$name;//图片连接
-                var_dump($ret);
-                var_dump($data);die;
+                $data['url']='http://pba0rjj88.bkt.clouddn.com/'.$name;//图片连接
+                $data['name']=$name;
+                $data['true_name']=$true_name;
+
+                $res=M('Video')->add($data);
+                if($res){
+                    $this->success('上传成功',U('index/index'),3);
+                    die;
+                }
+
             }
         }
 

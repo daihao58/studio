@@ -78,346 +78,38 @@
                         <div id="main-content" class="col-2-3">
                             <div class="all">
                                 <div class="header">
-                                    <h2>All Post</h2>
+                                    <h2>音频</h2>
                                 </div>
                                 <div class="row">
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="{:U('Video/single')}" target="_blank">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/1.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/2.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
+                                    <volist name="data" id="vo">
+
+                                        <div class="col-1-4">
+                                            <div class="wrap-col">
+                                                <div class="wrap-vid">
+                                                    <div class="zoom-container">
+                                                        <a href="{:U('Audio/single',array('id'=>$vo['id']))}" target="_blank">
+                                                    <span class="zoom-caption">
+                                                        <i class="icon-play fa fa-play"></i>
+                                                    </span>
+                                                            <img src="/{$vo.url_fm}"  style="width: 295px; height: 165px;" />
+                                                        </a>
+                                                    </div>
+                                                    <h3 class="vid-name"><a href="#">{$vo.true_name}</a></h3>
+                                                    <div class="info">
+
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/3.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/4.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/5.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/14.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/1.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/2.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/3.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/4.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/5.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/14.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/1.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/2.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/3.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-1-4">
-                                        <div class="wrap-col">
-                                            <div class="wrap-vid">
-                                                <div class="zoom-container">
-                                                    <a href="single.html">
-												<span class="zoom-caption">
-													<i class="icon-play fa fa-play"></i>
-												</span>
-                                                        <img src="/Public2/images/4.jpg" />
-                                                    </a>
-                                                </div>
-                                                <h3 class="vid-name"><a href="#">Video's Name</a></h3>
-                                                <div class="info">
-                                                    <h5>By <a href="#">Kelvin</a></h5>
-                                                    <span><i class="fa fa-calendar"></i>25/3/2015</span>
-                                                    <span><i class="fa fa-heart"></i>1,200</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    </volist>
+
+
+
+
                                 </div>
                             </div>
                             <div class="navigation">
-                                <ul>
-                                    <li><a href="#"><</a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">></a></li>
-                                </ul>
+                                {$page}
                             </div>
                         </div>
 

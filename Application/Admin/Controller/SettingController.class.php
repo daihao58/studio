@@ -6,100 +6,41 @@ use Admin\Controller;
  */
 class SettingController extends BaseController
 {
-    /**
-     * 分类列表
-     * @return [type] [description]
-     */
-    public function index($key="")
-    {
-        if($key == ""){
-            $model = M('setting');  
-        }else{
-            $where['key'] = array('like',"%$key%");
-            $where['description'] = array('like',"%$key%");
-            $where['_logic'] = 'or';
-            $model = M('setting')->where($where); 
-        } 
-        
-        $count  = $model->where($where)->count();// 查询满足要求的总记录数
-        $Page = new \Extend\Page($count,15);// 实例化分页类 传入总记录数和每页显示的记录数(25)
-        $show = $Page->show();// 分页显示输出
-        $setting = $model->limit($Page->firstRow.','.$Page->listRows)->where($where)->order('id DESC')->select();
-        $this->assign('model', $setting);
-        $this->assign('page',$show);
-        $this->display();     
-    }
 
-    /**
-     * 添加分类
-     */
-    public function add()
+    public function index()
     {
         //默认显示添加表单
         if (!IS_POST) {
             $this->display();
         }
         if (IS_POST) {
-            //如果用户提交数据
-            $model = D("Setting");
-            if (!$model->create()) {
-                // 如果创建失败 表示验证没有通过 输出错误提示信息
-                $this->error($model->getError());
-                exit();
-            } else {
+            $old_pwd=$_POST['old_pwd'];
+            $new_pwd=$_POST['new_pwd'];
+            $q_new_pwd=$_POST['q_new_pwd'];
 
-                if ($model->add()) {
-                    $this->success("字段添加成功", U('setting/index'));
-                } else {
-                    $this->error("字段添加失败");
+            if($new_pwd != $q_new_pwd){
+                $this->error('两次密码不一致',U('setting/index',2));
+                die;
+            }else{
+                $old_old_pwd=M('Member')->where("username = 'admin'")->getField('password');
+                if(md5($old_pwd) != $old_old_pwd){
+                    $this->error('旧密码错误',U('setting/index',2));
+                }else{
+                    $data['password']=md5($new_pwd);
+                    $res=M('Member')->where("username = 'admin'")->save($data);
+                    if($res){
+                        $this->success('修改密码成功',U('setting/index',2));
+                        die;
+                    }else{
+                        $this->error('修改密码失败',U('setting/index',2));
+                        die;
+                    }
                 }
             }
+
         }
     }
-    /**
-     * 更新分类信息
-     * @param  [type] $id [分类ID]
-     * @return [type]     [description]
-     */
-    public function update()
-    {
-        //默认显示添加表单
-        if (!IS_POST) {
-            $model = M('setting')->find(I('id'));
-            $this->assign('model',$model);
-            $this->display();
-        }
-        if (IS_POST) {
-            $model = D("Setting");
-            if (!$model->create()) {
-                $this->error($model->getError());
-            }else{
-             //   dd(I());die;
-                if ($model->save()) {
-                    $this->success("字段更新成功", U('setting/index'));
-                } else {
-                    $this->error("字段更新失败");
-                }        
-            }
-        }
-    }
-    /**
-     * 删除分类
-     * @param  [type] $id [description]
-     * @return [type]     [description]
-     */
-    public function delete($id)
-    {
-        $model = M('setting');
- 
-        //验证通过
-        $result = $model->delete($id);
-        if($result){
-            $this->success("字段删除成功", U('setting/index'));
-        }else{
-            $this->error("字段删除失败");
-        }
-    }
+
 
 
 }
