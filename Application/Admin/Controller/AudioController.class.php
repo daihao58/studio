@@ -11,7 +11,7 @@ class AudioController extends BaseController
 
     public function index($key="")
     {
-        $model = D('Video');
+        $model = D('Audio');
         $where='';
         if($key != ""){
             $where['true_name'] = array('like',"%$key%");

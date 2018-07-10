@@ -11,7 +11,7 @@ class ImgController extends BaseController
 
     public function index($key="")
     {
-        $model = D('Video');
+        $model = D('Img');
         $where='';
         if($key != ""){
             $where['true_name'] = array('like',"%$key%");
